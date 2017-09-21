@@ -1,0 +1,16 @@
+*
+!yarn.lock
+!src/
+!src/**/*
+!packages/
+!packages/**/*
+!*.js
+!*.json
+!*.md
+!.gitignore
+!.travis.yml
+!LICENSE
+!.npmignore
+
+//platform specific exclusion
+**/.DS_Store

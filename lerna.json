@@ -1,0 +1,12 @@
+{
+    "lerna": "2.2.0",
+    "packages": ["packages/*"],
+    "commands": {
+        "bootstrap": {
+            "hoist": true,
+            "nohoist": ["react-native"],
+            "concurrency": 4
+        }
+    },
+    "version": "0.0.0"
+}
